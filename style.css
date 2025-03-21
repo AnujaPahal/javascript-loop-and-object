@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -7,20 +6,20 @@
 }
 
 body {
-  background-color: rgb(199, 112, 253);
-  font-family: "Montserrat", sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background-color: rgb(255, 255, 255);
+  font-family: "Josefin Sans", sans-serif;
+  /* display: flex; */
+  /* justify-content: center;
+  align-items: center; */
   /* height: 100vh; */
 }
 
-.box {
+/* .box {
   width: 800px;
   /* height: 550px; */
-  background-color: white;
-  border-radius: 10px;
-  /* text-align: center; */
+/* background-color: white;
+  border-radius: 10px; */
+/* text-align: center; 
 }
 
 .product-list {
@@ -34,7 +33,7 @@ body {
     width:33.33%;
     text-align: center;
     float: left;
-} */
+} 
 
 .price{
     color:green;
@@ -50,4 +49,79 @@ div img{
 div button{
     margin-bottom: 70px;
     margin-top: 10px;
+} */
+
+.row-upper {
+  width: 100%;
+  height: 40px;
+  background-color: green;
+}
+
+.header {
+  width: 100%;
+  height: 100px;
+  /* background-color: rgb(199, 112, 253); */
+}
+
+.col1 {
+  width: 30%;
+  float: left;
+  text-align: center;
+  margin-top: 20px;
+  height: 70px;
+}
+
+.col1 img {
+  height: 100%;
+}
+
+.col2 {
+  width: 50%;
+  float: left;
+  height: 100px;
+  background-color: rgb(255, 255, 255);
+  text-align: left;
+  word-spacing: 20px;
+  padding-top: 40px;
+  padding-left: 30px;
+  font-size: 25px;
+  color: green;
+}
+
+.col3 {
+  width: 20%;
+  float: left;
+  height: 100px;
+  /* background-color: rgb(229, 88, 88); */
+  padding-top: 30px;
+}
+
+.col3 input {
+  height: 40px;
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  color: green;
+  border: solid green;
+}
+
+.banner {
+  width: 100%;
+  height: 500px;
+  background-color: gold;
+}
+
+.product-row {
+  width: 100%;
+  margin-top: 50px;
+  background-color: hotpink;
+  height: 300px;
+}
+
+.product-col {
+  width: 24%;
+  background-color: red;
+  height: 300px;
+  margin-left: 10px;
+  float: left;
 }
