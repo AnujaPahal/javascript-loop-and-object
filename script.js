@@ -1,56 +1,129 @@
-// let products = [
-//     {
-//         name: "NIKE Revolution 7 Running Shoes For Men   ",
-//         price: 3695,
-//         color: "Black",
-//         imageUrl: "https://rukminim2.flixcart.com/image/612/612/xif0q/shoe/4/k/q/-original-imah5uwvsj4vhvgw.jpeg?q=70"
-//     },
-//     {
-//         name: "NIKE y.By Mid 3 Basketball Shoes For Men  ",
-//         price: 3896,
-//         color: "Black & Red",
-//         imageUrl: "https://rukminim2.flixcart.com/image/612/612/xif0q/shoe/h/p/s/-original-imah852gfj49hs9x.jpeg?q=70"
-//     },
-//     {
-//         name: "BUCKAROO KORNEL Boat Shoes For Men ",
-//         price: 3035,
-//         color: "Blue",
-//         imageUrl: "https://rukminim2.flixcart.com/image/612/612/xif0q/shoe/r/t/x/11-55-33146-buckaroo-blue-original-imah4nevqamzzdyq.jpeg?q=70"
-//     },
+let products = [
+  {
+    name: "Black/Grey Sports Shoe for men",
+    price: 4797,
+    imageurl:
+      "https://assets.woodlandworldwide.app/product/images/FGC0EM0S0152A/BLACK_LGREY/FGC0EM0S0152A_B34_0.webp",
+  },
 
-//     {
-//         name: "NIKE Winflo 11 Premium Running Shoes For Men ",
-//         price: 7562,
-//         color: "Orange",
-//         imageUrl: "https://rukminim2.flixcart.com/image/612/612/xif0q/shoe/h/p/s/-original-imah852gfj49hs9x.jpeg?q=70"
-//     },
+  {
+    name: "Blue Sports Sneaker for Women",
+    price: 3897,
+    imageurl:
+      "https://assets.woodlandworldwide.app/product/images/FLC0150S0142A/BLUE/FLC0150S0142A_005_0.webp",
+  },
 
-//     {
-//         name: "NIKE Giannis Immortality 3 'Bedtime Snack' Basketball Shoes For Men",
-//         price: 7095,
-//         color: "Black",
-//         imageUrl: "https://rukminim2.flixcart.com/image/612/612/xif0q/shoe/r/t/x/11-55-33146-buckaroo-blue-original-imah4nevqamzzdyq.jpeg?q=70"
-//     },
-//     {
-//         name: " NIKE Precision 6 Basketball Shoes For Men",
-//         price: 5095,
-//         color: "Green",
-//         imageUrl: "https://rukminim2.flixcart.com/image/612/612/xif0q/shoe/r/t/x/11-55-33146-buckaroo-blue-original-imah4nevqamzzdyq.jpeg?q=70"
-//     }
+  {
+    name: "Pink Slip-on shoes",
+    price: 1500,
+    imageurl:"https://assets.woodlandworldwide.app/product/images/FLC0H40T3272A/PINK/FLC0H40T3272A_117_0.webp",
+  },
+
+  {
+    name: "Navy Polyurethane Mens Sports",
+    price: 1095,
+    imageurl:
+      "https://assets.woodlandworldwide.app/product/images/FGC0Z7039422A/NAVY/FGC0Z7039422A_030_0.webp",
+  },
+
+  {
+    name: "Olive casual sneaker",
+    price: 1500,
+    imageurl:
+      "https://assets.woodlandworldwide.app/product/images/FGC0H40T3262A/OLIVE/FGC0H40T3262A_111_0.webp",
+  },
+
+  {
+    name: "White Sports Shoe for Men",
+    price: 2246,
+    imageurl:
+      "https://assets.woodlandworldwide.app/product/images/FGC0DN046842A/WHITE/FGC0DN046842A_044_0.webp",
+  },
+
+  {
+    name: "Black Lightweight & Breathable Sports Shoes For Men",
+    price: 2306,
+    imageurl:
+      "https://assets.woodlandworldwide.app/product/images/FGC0DN060382A/BLACK/FGC0DN060382A_004_0.webp",
+  },
+
+  {
+    name: "Navy Slip-on Shoe for Men",
+    price: 2228,
+    imageurl:
+      "https://assets.woodlandworldwide.app/product/images/FGC0Y9039132A/NAVY/FGC0Y9039132A_030_0.webp",
+  },
+
+  {
+    name: "Woodsport Black Sports Shoes",
+    price: 2226,
+    imageurl:"https://assets.woodlandworldwide.app/product/images/FGC0DN060372A/BLACK/FGC0DN060372A_004_0.webp",
+  },
+
+  {
+    name: "  Pink sneakers for women",
+    price: 4109,
+    imageurl:"https://assets.woodlandworldwide.app/product/images/FLC0DY0T7822A/PINK/FLC0DY0T7822A_117_0.webp",
+  },
+
+  {
+    name: "  Sand Sports Shoe for men",
+    price: 4797,
+    imageurl:"https://assets.woodlandworldwide.app/product/images/FGC0DY0S0072A/SAND/FGC0DY0S0072A_124_0.webp",
+  },
+
+  {
+    name: " Black Slip-on Shoe for Men",
+    price: 1571,
+    imageurl:"https://assets.woodlandworldwide.app/product/images/FGC026041122A/BLACK/FGC026041122A_004_0.webp",
+  },
+
+  {
+    name: "  Navy and grey Sneakers for men",
+    price: 4497,
+    imageurl:"https://assets.woodlandworldwide.app/product/images/FGC0510T7812A/NAVY_GREY/FGC0510T7812A_225_0.webp",
+  },
+
+  {
+    name: "  Navy Sports Sneaker for men",
+    price: 4797,
+    imageurl:"https://assets.woodlandworldwide.app/product/images/FGC0510S0112A/NAVY/FGC0510S0112A_030_0.webp",
+  },
+
+  {
+    name: " Black/Lblack Sports Shoes For Men",
+    price: 2166,
+    imageurl:"https://assets.woodlandworldwide.app/product/images/FGC0DN060892A/BLACK/FGC0DN060892A_004_0.webp",
+  },
+
+  {
+    name: " Black Running Sports Shoes For Men",
+    price: 2166,
+    imageurl:"https://assets.woodlandworldwide.app/product/images/FGC026041122A/BLACK/FGC026041122A_004_0.webp",
+  },
 
 
-// ];
 
 
-// products.forEach(function (item) {
 
-//     document.querySelector(".product-list").innerHTML += `
-//           <div class="product">
-//               <img  src="${item.imageUrl}"/>
-//               <h3>${item.name}</h3>
-//               <div class="price">Rs. ${item.price}</div>
-//               <div> ${item.color} </div>
-//               <button>Buy Now</button>
-//           </div>
-//       `;
-// });
+
+];
+
+products.forEach(function (item) {
+  document.querySelector(".product-row").innerHTML += `
+             <div class="product-col">
+                  <img  src="${item.imageurl}"/>
+               <h3>${item.name}</h3>
+               <div class="price">Rs. ${item.price}</div>
+                 <button class="buy-btn">Buy Now</button>
+             </div>
+         `;
+});
+
+
+
+// let Modalbox = document.querySelector(".modal-open")
+
+// function openmodal(){
+//   Modalbox.style.display = "flex" 
+// }
