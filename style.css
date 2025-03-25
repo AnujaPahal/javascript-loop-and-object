@@ -97,11 +97,12 @@ div button{
   padding-top: 30px;
 }
 
-.col3 input {
+.col3 button {
   height: 40px;
   text-align: center;
   font-family: "Josefin Sans", sans-serif;
   font-size: 20px;
+  width:180px;
   color: green;
   border: solid green;
 }
@@ -132,7 +133,7 @@ div button{
   width: 100%;
   margin-top: 50px;
   background-color: rgb(232, 229, 229);
-  height: 300px;
+  /* height: 100vh; */
   float: left;
 
 }
@@ -140,12 +141,16 @@ div button{
 .product-col {
   width: 24%;
   background-color: rgb(232, 229, 229);
-  height: 500px;
+  /* height: 600px; */
   margin-left: 10px;
+  margin-top: 30px;
   float: left;
   text-align: center;
 } 
 
+h3{
+  padding-top: 10px;
+}
 
 div img{
   width:100%
@@ -167,7 +172,7 @@ div img{
 
 
 
-/* .modal-box {
+.modal-box {
   position: fixed;
   background-color: rgba(0, 0, 0, 0.5);
   width: 100%;
@@ -188,19 +193,55 @@ div img{
 
 .modal-row input{
   width: 90%;
-  height: 40px;
+  height: 38px;
   margin-left: 30px;
   margin-right: 40px;
-  border-radius: 7%;
+  /* border-radius: 7%; */
   margin-top: 34px;
-  font-size: 27px;
+  font-size: 20px;
 }
- */
+
+.footer-row{
+  width:100%;
+  background-color: rgb(2, 77, 2);
+  height:400px;
+  margin-top: 2000px;
+
+}
+
+ 
+.footer-col{
+  width:20%;
+  color: white;
+  /* height:500px; */
+  /* background-color: aquamarine; */
+  float: left;
+  /* border: 2px solid black; */
+  margin-top: 80px;
+  padding-left: 30px;
+}
+
+.footer-col4{
+  width:40%;
+  color: white;
+  /* height:500px; */
+  /* background-color: aquamarine; */
+  float: left;
+  /* border: 2px solid black; */
+  margin-top: 80px;
+  padding-left: 30px;
+}
+
+
+h4{
+  padding-top: 30px;
+}
+
 
 
  .footer{
   background-color: rgb(3, 94, 3);
   width: 100%;
-  height: 200px;
-  margin-top: 2300px;
+  height: 80px;
+  /* margin-top: 2000px; */
 }

@@ -41,7 +41,7 @@ let products = [
   },
 
   {
-    name: "Black Lightweight & Breathable Sports Shoes For Men",
+    name: "Black  Sports Shoes For Men",
     price: 2306,
     imageurl:
       "https://assets.woodlandworldwide.app/product/images/FGC0DN060382A/BLACK/FGC0DN060382A_004_0.webp",
@@ -91,13 +91,13 @@ let products = [
   },
 
   {
-    name: " Black/Lblack Sports Shoes For Men",
+    name: " Black Sports Shoes For Men",
     price: 2166,
     imageurl:"https://assets.woodlandworldwide.app/product/images/FGC0DN060892A/BLACK/FGC0DN060892A_004_0.webp",
   },
 
   {
-    name: " Black Running Sports Shoes For Men",
+    name: " Black Sports Shoes For Men",
     price: 2166,
     imageurl:"https://assets.woodlandworldwide.app/product/images/FGC026041122A/BLACK/FGC026041122A_004_0.webp",
   },
@@ -122,8 +122,17 @@ products.forEach(function (item) {
 
 
 
-// let Modalbox = document.querySelector(".modal-open")
 
-// function openmodal(){
-//   Modalbox.style.display = "flex" 
-// }
+let Modal1 = document.querySelector('#open-modal')
+
+console.log(Modal1)
+
+function openmodal(){
+  Modal1.style.display = 'flex'
+}
+
+
+function closemodal(){
+  Modal1.style.display = 'none'
+
+}
