@@ -121,6 +121,21 @@ products.forEach(function (item) {
 });
 
 
+document.querySelectorAll('.buy-btn').forEach(function(item){
+  item.addEventListener('click', function(){
+    console.log('clicked', item)
+
+    document.querySelector('.popup').style.display = "flex"
+  })
+
+
+  setTimeout(() => {
+   document.querySelector('.popup').style.display = "none"
+
+  }, 3000);
+})
+
+
 
 
 let Modal1 = document.querySelector('#open-modal')

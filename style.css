@@ -456,3 +456,18 @@ h4{
   height: 80px;
   /* margin-top: 2000px; */
 }
+
+
+.popup{
+  width:100%;
+  height:100px;
+  position:fixed;
+  top:0;
+  left:0;
+  background-color: orange;
+
+  display: none;
+  align-items: center;
+  justify-content: center;
+
+}
